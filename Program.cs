@@ -10,7 +10,7 @@ namespace SelectionStatements
             var userInput = int.Parse(Console.ReadLine());
 
 
-            if (userInput !< favNumber)
+            if (userInput < favNumber)
             {
                 Console.WriteLine("Too low");
             }
