@@ -7,19 +7,21 @@ namespace SelectionStatements
         static void Main(string[] args)
         {
             int favNumber = 89;
+            var userInput = int.Parse(Console.ReadLine());
 
-            if (favNumber <= 88)
+
+            if (userInput !< favNumber)
             {
                 Console.WriteLine("Too low");
             }
 
-            else if (89 == 89)
+            else if (userInput == favNumber)
             {
                 Console.WriteLine("You are Right");
             }
             else
             {
-                Console.Write("Nevermind");
+                Console.WriteLine("Nevermind");
             }
 
             //Create an if-statement that if the guessed number is below the initial value, print out “too low”.
